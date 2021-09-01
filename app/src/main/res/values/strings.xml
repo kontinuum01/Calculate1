@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Calculate</string>
+
     <string name="key_1">1</string>
-    <string name="key_3">3</string>
     <string name="key_2">2</string>
+    <string name="key_3">3</string>
     <string name="key_4">4</string>
     <string name="key_5">5</string>
     <string name="key_6">6</string>
@@ -11,11 +12,14 @@
     <string name="key_9">9</string>
     <string name="key_0">0</string>
     <string name="key_dot">.</string>
-    <string name="key_plus">+</string>
-    <string name="key_minus">-</string>
-    <string name="key_procent">%</string>
-    <string name="key_delit">/</string>
-    <string name="key_mult">*</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonSub">-</string>
+    <string name="buttonDiv">/</string>
+    <string name="buttonMul">*</string>
     <string name="key_equals">=</string>
     <string name="key_delete">C</string>
+    <string name="key_deletes">AC</string>
+
+
+
 </resources>
