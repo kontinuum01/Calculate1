@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item>@string/list_item_one</item>
+        <item>@string/list_item_two</item>
+    </string-array>
+
+    <integer-array name="images">
+        <item>@drawable/ic_baseline_filter_1_24</item>
+        <item>@drawable/ic_baseline_filter_2_24</item>
+    </integer-array>
+</resources>

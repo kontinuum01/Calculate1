@@ -1,25 +1,27 @@
 <resources>
     <string name="app_name">Calculate</string>
 
-    <string name="key_1">1</string>
-    <string name="key_2">2</string>
-    <string name="key_3">3</string>
-    <string name="key_4">4</string>
-    <string name="key_5">5</string>
-    <string name="key_6">6</string>
-    <string name="key_7">7</string>
-    <string name="key_8">8</string>
-    <string name="key_9">9</string>
-    <string name="key_0">0</string>
-    <string name="key_dot">.</string>
-    <string name="buttonAdd">+</string>
-    <string name="buttonSub">-</string>
-    <string name="buttonDiv">/</string>
-    <string name="buttonMul">*</string>
-    <string name="key_equals">=</string>
-    <string name="key_delete">C</string>
-    <string name="key_deletes">AC</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_dot">.</string>
+    <string name="button_add">+</string>
+    <string name="button_sub">-</string>
+    <string name="button_div">/</string>
+    <string name="button_mul">*</string>
+    <string name="button_equ">=</string>
+    <string name="button_del">C</string>
+    <string name="button_del1">AC</string>
+    <string name="button_theme">theme</string>
 
-
+    <string name="list_item_one">one</string>
+    <string name="list_item_two">two</string>
 
 </resources>
