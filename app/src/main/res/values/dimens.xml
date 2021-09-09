@@ -3,6 +3,6 @@
 
     <dimen name="textSize">45sp</dimen>
     <dimen name="text1Size">40sp</dimen>
-    <dimen name="horizontal_margin">horizontal_margin</dimen>
+
 
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="CulceButtons1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="CulceButtons1" >
         <item name="android:fontFamily">@font/samson</item>
         <item name="android:textSize">@dimen/textSize</item>
         <item name="android:textColor">@color/black</item>

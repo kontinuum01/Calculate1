@@ -10,9 +10,9 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-    private Button theme;
+
     private TextView Result;
-    private Button one, two, three, four, five, six, seven, eight, nine, zero, add, sub, div, mul, dot, C, AC;
+    private Button one, two, three, four, five, six, seven, eight, nine, zero, add, sub, div, mul, dot, C, AC,theme;
     private String input, answer;
 
     @Override
@@ -38,8 +38,9 @@ public class MainActivity extends AppCompatActivity {
         dot = findViewById(R.id.dot);
         C = findViewById(R.id.C);
         AC = findViewById(R.id.AC);
+        theme = findViewById(R.id.theme);
 
-
+        initView();
     }
 
 
@@ -134,7 +135,11 @@ public class MainActivity extends AppCompatActivity {
         }
         Result.setText(input);
 
-        findViewById(R.id.theme).setOnClickListener(new View.OnClickListener() {
+    }
+
+    private void initView() {
+        Button theme = findViewById(R.id.theme);
+        theme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ListActivity2.class);
@@ -143,9 +148,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
 }
+
+
+
 
 
 
