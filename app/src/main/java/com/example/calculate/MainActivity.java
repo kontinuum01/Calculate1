@@ -2,6 +2,7 @@ package com.example.calculate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +10,7 @@ import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
-
+    private Button theme;
     private TextView Result;
     private Button one, two, three, four, five, six, seven, eight, nine, zero, add, sub, div, mul, dot, C, AC;
     private String input, answer;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
     public void ButtonClick(View view) {
         Button button = (Button) view;
@@ -131,8 +133,24 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         Result.setText(input);
+
+        findViewById(R.id.theme).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListActivity2.class);
+                startActivity(intent);
+            }
+        });
+
     }
+
+
 }
+
+
+
+
+
 
 
 

@@ -1,184 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mine_color"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_launcher_background" />
-
-
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/Result"
+        style="@style/CulceText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="@dimen/cardview_compat_inset_shadow"
-        android:layout_weight="1"
-        android:textSize="18pt" />
+        android:layout_weight="1" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:columnCount="3">
+        android:columnCount="5">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/one"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="0"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnWeight="1"
             android:onClick="ButtonClick"
-            android:text="@string/key_1" />
+            android:text="@string/button_1" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/two"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnWeight="1"
             android:onClick="ButtonClick"
-            android:text="@string/key_2" />
+            android:text="@string/button_2" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/three"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnWeight="1"
             android:onClick="ButtonClick"
-            android:text="@string/key_3" />
+            android:text="@string/button_3" />
 
-        <Button
-            android:id="@+id/four"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_4" />
-
-        <Button
-            android:id="@+id/five"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_5" />
-
-        <Button
-            android:id="@+id/six"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_6" />
-
-        <Button
-            android:id="@+id/seven"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_7" />
-
-        <Button
-            android:id="@+id/eight"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_8" />
-
-        <Button
-            android:id="@+id/nine"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_9" />
-
-        <Button
-            android:id="@+id/zero"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/key_0" />
-
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/dot"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnWeight="1"
             android:onClick="ButtonClick"
-            android:text="@string/key_dot" />
+            android:text="@string/button_dot" />
 
-        <Button
-            android:id="@+id/Add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/buttonAdd" />
-
-        <Button
-            android:id="@+id/sub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
-            android:text="@string/buttonSub" />
-
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/div"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnWeight="1"
             android:onClick="ButtonClick"
-            android:text="@string/buttonDiv" />
+            android:text="@string/button_div" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/four"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/five"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_5" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/six"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Add"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_add" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sub"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_sub" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/seven"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_7" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/eight"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_8" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nine"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_9" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zero"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_0" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/mul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnWeight="1"
             android:onClick="ButtonClick"
-            android:text="@string/buttonMul" />
+            android:text="@string/button_mul" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/key_15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnSpan="2"
-            android:layout_columnWeight="1"
-            android:backgroundTint="@color/teal_200"
-            android:onClick="ButtonClick"
-            android:text="@string/key_equals"
-            android:textColor="@color/black" />
-
-
-        <Button
-            android:id="@+id/C"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
-            android:onClick="ButtonClick"
-            android:text="@string/key_delete"
-            android:textColor="@color/red" />
-
-        <Button
-            android:id="@+id/AC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_columnSpan="3"
             android:layout_columnWeight="1"
-            android:backgroundTint="@color/black"
             android:onClick="ButtonClick"
-            android:text="@string/key_deletes"
-            android:textColor="@color/red" />
+            android:text="@string/button_equ" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/C"
+            style="@style/CulceButtons1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_del" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/AC"
+            style="@style/CulceButtons1.AC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_del1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/theme"
+            style="@style/CulceButtons1.Theme"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_columnSpan="5"
+            android:layout_columnWeight="1"
+            android:onClick="ButtonClick"
+            android:text="@string/button_theme"
+            app:cornerRadius="10dp"
+            app:rippleColor="@color/white"
+            app:strokeWidth="@color/white" />
 
 
     </GridLayout>
