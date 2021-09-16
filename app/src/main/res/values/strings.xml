@@ -20,7 +20,9 @@
     <string name="button_del">C</string>
     <string name="button_del1">AC</string>
     <string name="button_theme">theme</string>
-
+    <string name="button_classic">classic</string>
+    <string name="button_dark">dark</string>
+    <string name="button_link">link</string>
 
 
 </resources>

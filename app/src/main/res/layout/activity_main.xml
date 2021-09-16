@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/Result"
+        android:id="@+id/result"
         style="@style/CulceText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_1" />
 
         <com.google.android.material.button.MaterialButton
@@ -36,7 +35,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_2" />
 
         <com.google.android.material.button.MaterialButton
@@ -45,7 +43,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_3" />
 
         <com.google.android.material.button.MaterialButton
@@ -54,7 +51,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_dot" />
 
         <com.google.android.material.button.MaterialButton
@@ -63,7 +59,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_div" />
 
         <com.google.android.material.button.MaterialButton
@@ -72,7 +67,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_4" />
 
         <com.google.android.material.button.MaterialButton
@@ -81,7 +75,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_5" />
 
         <com.google.android.material.button.MaterialButton
@@ -90,7 +83,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_6" />
 
         <com.google.android.material.button.MaterialButton
@@ -99,7 +91,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_add" />
 
         <com.google.android.material.button.MaterialButton
@@ -108,7 +99,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_sub" />
 
         <com.google.android.material.button.MaterialButton
@@ -117,7 +107,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_7" />
 
         <com.google.android.material.button.MaterialButton
@@ -126,7 +115,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_8" />
 
         <com.google.android.material.button.MaterialButton
@@ -135,7 +123,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_9" />
 
         <com.google.android.material.button.MaterialButton
@@ -144,7 +131,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_0" />
 
         <com.google.android.material.button.MaterialButton
@@ -153,17 +139,15 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_mul" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/key_15"
+            android:id="@+id/equ"
             style="@style/CulceButtons1"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnSpan="3"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_equ" />
 
 
@@ -173,7 +157,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_del" />
 
         <com.google.android.material.button.MaterialButton
@@ -183,7 +166,6 @@
             android:layout_height="80dp"
             android:layout_columnSpan="1"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_del1" />
 
         <com.google.android.material.button.MaterialButton
@@ -193,7 +175,6 @@
             android:layout_height="80dp"
             android:layout_columnSpan="5"
             android:layout_columnWeight="1"
-            android:onClick="ButtonClick"
             android:text="@string/button_theme"
             app:cornerRadius="10dp"
             app:rippleColor="@color/white"
